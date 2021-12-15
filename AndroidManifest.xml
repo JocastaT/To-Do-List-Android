@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tp.edu.taskapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=" "
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TaskApp"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".EditProfile" android:theme="@style/LoginTheme"/>
+
+        <activity android:name=".SplashActivity" android:theme="@style/LoginTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Notes.AddNote"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".Notes.EditNote"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".Notes.NoteDetails"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".NotesActivity"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/LoginTheme" />
+        <activity android:name=".ProfilePg" android:theme="@style/LoginTheme"/>
+        <activity android:name=".RegisterPage" />
+        <activity
+            android:name=".LoginPage"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Calendar.CalendarViewWithNotesActivitySDK21"
+            android:theme="@style/LoginTheme" />
+
+
+    </application>
+
+</manifest>

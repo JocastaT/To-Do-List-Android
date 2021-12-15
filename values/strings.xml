@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name"><font font-family="robotothin.ttf">TODO.TXT</font></string>
+    <string name="login">Login</string>
+    <string name="hintEmail"><font size="17">Enter Your Email</font></string>
+    <string name="hintPassw"><font size="17">Enter Your Password</font></string>
+    <string name="hintAddTask"><font color="gray2" font-family="robotothin.ttf" size="15">Write Your Task Here.....</font></string>
+    <string name="hintNotes"><font color="gray2" size="15">Additional notes.....</font></string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="TAG">TAG</string>
+    <string name="completed"><font color="black">Completed</font></string>
+    <string name="incomplete"><font color="black">Incomplete</font></string>
+    <string name="important"><font color="black">Important</font></string>
+    <string name="oldest"><font color="black">Oldest to Latest</font></string>
+    <string name="latest"><font color="black">Latest to Oldest</font></string>
+    <string name="today">Today</string>
+    <string name="event_default_title">My Event</string>
+
+    <string name="facebook_app_id">978219372969462</string>
+    <string name="fb_login_protocol_scheme">fb978219372969462</string>
+    <string name="edit_profile"><u> Edit Profile </u></string>
+
+
+</resources>

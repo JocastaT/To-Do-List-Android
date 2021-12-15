@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/completedtasks"
+        android:title="Completed"
+        app:showAsAction="never"/>
+    <item android:id="@+id/incompletedtasks"
+        android:title="Incomplete"
+        app:showAsAction="never"/>
+    <item android:id="@+id/impttasks"
+        android:title="Important"
+        app:showAsAction="never"/>
+    <item android:id="@+id/oldesttasks"
+        android:title="Oldest to Latest"
+        app:showAsAction="never"/>
+    <item android:id="@+id/latesttasks"
+        android:title="Latest to Oldest"
+        app:showAsAction="never"/>
+
+
+</menu>
